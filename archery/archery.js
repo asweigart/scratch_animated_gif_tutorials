@@ -1,5 +1,5 @@
 {
-    slides: [
+    "slides": [
         {
             "title": "Archery Game",
             "text": "In this archery game, the player must shoot arrows past blocks to hit apples.\n[Completed Archery game demo](complete.gif)\nThe complete game can be played on [the Scratch website](TODO)"
