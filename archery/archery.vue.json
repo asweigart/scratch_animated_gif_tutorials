@@ -121,43 +121,83 @@
         },
         {
             "title": "Create Variables",
-            "text": "Create variables for the \"Score\" and \"arrow is ready\".\n<img src=\"14.gif\" alt=\"instruction animation\" />"
+            "text": "Create variables for the \"Score\" and \"arrow is ready\".\n",
+            "image":{
+                "file":"14.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Create Variables",
-            "text": "Add this code to the Arrow sprite:\nset arrow is ready to yes\nset Score to 0\n<img src=\"15.gif\" alt=\"instruction animation\" />"
+            "text": "Add this code to the Arrow sprite:\nset arrow is ready to yes\nset Score to 0",
+            "image":{
+                "file":"15.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Cat sprite:\nwhen space key pressed\nif then\n<img src=\"16.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Cat sprite:\nwhen space key pressed\nif then",
+            "image":{
+                "file":"16.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Cat sprite:\narrow is ready = yes\n<img src=\"17.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Cat sprite:\narrow is ready = yes",
+            "image":{
+                "file":"17.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Cat sprite:\ncreate clone of Arrow\n<img src=\"18.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Cat sprite:\ncreate clone of Arrow",
+            "image":{
+                "file":"18.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:\nwhen I start as a clone\n<img src=\"19.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nwhen I start as a clone",
+            "image":{
+                "file":"19.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to no\ngo to Cat\n<img src=\"20.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to no\ngo to Cat",
+            "image":{
+                "file":"20.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:point towards mouse-pointer\nmove 30 steps\n<img src=\"21.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:point towards mouse-pointer\nmove 30 steps",
+            "image":{
+                "file":"21.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:\nshow\nforever\n<img src=\"22.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nshow\nforever",
+            "image":{
+                "file":"22.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:\nmove 25 steps\n<img src=\"23.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nmove 25 steps",
+            "image":{
+                "file":"23.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #2",
@@ -165,47 +205,91 @@
         },
         {
             "title": "Add Code to Shoot Arrow",
-            "text": "Add the following code to the Arrow sprite:\nhide\n<img src=\"24.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nhide",
+            "image":{
+                "file":"24.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Click the Face button and select Button3.\n<img src=\"25.gif\" alt=\"instruction animation\" />"
+            "text": "Click the Face button and select Button3.",
+            "image":{
+                "file":"25.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Click the Costumes tab, and use the Fill tool to make the block purple.\n<img src=\"26.gif\" alt=\"instruction animation\" />"
+            "text": "Click the Costumes tab, and use the Fill tool to make the block purple.",
+            "image":{
+                "file":"26.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nwhen green flag clicked\nset size to 50%\n<img src=\"27.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nwhen green flag clicked\nset size to 50%",
+            "image":{
+                "file":"27.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\ngo to x: 100 y: -180\n<img src=\"28.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\ngo to x: 100 y: -180",
+            "image":{
+                "file":"28.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite\nforever\ncreate clone of myself\n<img src=\"29.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite\nforever\ncreate clone of myself",
+            "image":{
+                "file":"29.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nwait (pick random 0.8 to 2) secs\n<img src=\"30.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nwait (pick random 0.8 to 2) secs",
+            "image":{
+                "file":"30.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nwhen I start as a clone\nshow\n<img src=\"31.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nwhen I start as a clone\nshow",
+            "image":{
+                "file":"31.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nrepeat until [ ] &gt; [ ]\n<img src=\"32.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nrepeat until [ ] &gt; [ ]\n",
+            "image":{
+                "file":"32.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\ny position &gt; 170\n<img src=\"33.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\ny position &gt; 170\n",
+            "image":{
+                "file":"33.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nchange y by 4\ndelete this clone\n<img src=\"34.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nchange y by 4\ndelete this clone",
+            "image":{
+                "file":"34.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #3",
@@ -213,39 +297,75 @@
         },
         {
             "title": "Add the Purple Blocks That Float Up",
-            "text": "Add the following code to the Button3 sprite:\nhide\n<img src=\"35.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Button3 sprite:\nhide",
+            "image":{
+                "file":"35.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Click the face button and select Apple.\n<img src=\"36.gif\" alt=\"instruction animation\" />"
+            "text": "Click the face button and select Apple.",
+            "image":{
+                "file":"36.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nwhen green flag clicked\ngo to x: 200 y: 180\n<img src=\"37.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nwhen green flag clicked\ngo to x: 200 y: 180",
+            "image":{
+                "file":"37.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nforever\ncreate clone of myself\n<img src=\"38.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nforever\ncreate clone of myself",
+            "image":{
+                "file":"38.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nwait (pick random 0.6 to 2) secs\n<img src=\"39.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nwait (pick random 0.6 to 2) secs",
+            "image":{
+                "file":"39.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nwhen I start as a clone\nshow\n<img src=\"40.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nwhen I start as a clone\nshow",
+            "image":{
+                "file":"40.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nrepeat until [ ] &lt; [ ]\n<img src=\"41.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nrepeat until [ ] &lt; [ ]",
+            "image":{
+                "file":"41.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\ny position < -170\n<img src=\"42.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\ny position < -170",
+            "image":{
+                "file":"42.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nchange y by -4\ndelete this clone\n<img src=\"43.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nchange y by -4\ndelete this clone",
+            "image":{
+                "file":"43.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #4",
@@ -253,27 +373,51 @@
         },
         {
             "title": "Make the Apples Float Down",
-            "text": "Add the following code to the Apple sprite:\nhide\n<img src=\"44.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Apple sprite:\nhide",
+            "image":{
+                "file":"44.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Bounce Off the Blocks",
-            "text": "Add the following code to the Arrow sprite:\nif then\n<img src=\"45.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nif then",
+            "image":{
+                "file":"45.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Bounce Off the Blocks",
-            "text": "Add the following code to the Arrow sprite:\ncolor [ ] is touching [ ]?\n<img src=\"46.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\ncolor [ ] is touching [ ]?\n",
+            "image":{
+                "file":"46.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Bounce Off the Blocks",
-            "text": "Click the left color box, then the grey arrow head, then the right color box, then the purple block.\n<img src=\"47.gif\" alt=\"instruction animation\" />"
+            "text": "Click the left color box, then the grey arrow head, then the right color box, then the purple block.",
+            "image":{
+                "file":"47.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Bounce Off the Blocks",
-            "text": "Add the following code to the Arrow sprite:\nrepeat 10\nturn counterclockwise 35\nmove 25 steps\n<img src=\"48.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nrepeat 10\nturn counterclockwise 35\nmove 25 steps>",
+            "image":{
+                "file":"48.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Bounce Off the Blocks",
-            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to yes\ndelete this clone\n<img src=\"49.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to yes\ndelete this clone",
+            "image":{
+                "file":"49.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #5",
@@ -281,27 +425,51 @@
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Add the following code to the Arrow sprite:\nif color [ ] is touching [ ]? then\n<img src=\"50.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nif color [ ] is touching [ ]? then",
+            "image":{
+                "file":"50.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Click the left color box, then the grey arrow head, then the right color box, then the red apple.\n<img src=\"51.gif\" alt=\"instruction animation\" />"
+            "text": "Click the left color box, then the grey arrow head, then the right color box, then the red apple.",
+            "image":{
+                "file":"51.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Add the following code to the Arrow sprite:\nchange Score by 1\nset arrow is ready to yes\n<img src=\"52.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nchange Score by 1\nset arrow is ready to yes",
+            "image":{
+                "file":"52.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Add the following code to the Arrow sprite:\nrepeat until [ ] &lt; [ ]\n<img src=\"53.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nrepeat until [ ] &lt; [ ]",
+            "image":{
+                "file":"53.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Add the following code to the Arrow sprite:\ny position &lt; -170\n<img src=\"54.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\ny position &lt; -170",
+            "image":{
+                "file":"54.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Hit the Apples",
-            "text": "Add the following code to the Arrow sprite:\nchange y by -4\ndelete this clone\n<img src=\"55.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nchange y by -4\ndelete this clone",
+            "image":{
+                "file":"55.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #6",
@@ -309,15 +477,27 @@
         },
         {
             "title": "Make the Arrows Disappear If You Miss",
-            "text": "Add the following code to the Arrow sprite:\n if [ ] &gt; [ ]\n<img src=\"56.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\n if [ ] &gt; [ ]",
+            "image":{
+                "file":"56.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Disappear If You Miss",
-            "text": "Add the following code to the Arrow sprite:\nx position &gt; 230\n<img src=\"57.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nx position &gt; 230",
+            "image":{
+                "file":"57.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Arrows Disappear If You Miss",
-            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to yes\ndelete this clone\n<img src=\"58.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to the Arrow sprite:\nset arrow is ready to yes\ndelete this clone",
+            "image":{
+                "file":"58.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #7",

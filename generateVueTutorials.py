@@ -10,7 +10,7 @@ TUTORIAL_JSON_FILES = [Path(scriptLocation) / 'archery' / 'archery.vue.json']
 
 indexTemplate = open(Path(scriptLocation) / 'assets' / 'tutorial.html').read()
 bulmaCss = open(Path(scriptLocation) / 'assets' / 'bulma.min.css').read()
-vueScript = open(Path(scriptLocation) / 'assets' / 'vue.dev.js').read()
+vueScript = open(Path(scriptLocation) / 'assets' / 'vue.min.js').read()
 vueRouterScipt = open(
     Path(scriptLocation) / 'assets' / 'vue-router.min.js').read()
 tutorialApp = open(Path(scriptLocation) / 'assets' / 'app.js').read()
