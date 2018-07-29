@@ -1,0 +1,293 @@
+{
+    "name": "Hungry Hungry Kitties",
+    "slides": [
+        {
+            "title": "Hungry Hungry Kitties",
+            "text": "In this game, the player clicks their cat as rapidly as possible to try to eat the most bouncing pellets.\n<img src=\"complete.gif\" />"
+        },
+        {
+            "title": "",
+            "text": "Delete the Sprite1 sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Click New Sprite, select cat2.\n"
+        },
+        {
+            "title": "",
+            "text": "Rename cat2 to Orange Cat\n"
+        },
+        {
+            "title": "",
+            "text": "4Add this code to Orange Cat:\nwhen this sprite clicked\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Orange Cat:\nset size to 100%\ngo to x: -200 y: 0\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Orange Cat:\nrepeat 6\n"
+        },
+        {
+            "title": "",
+            "text": "7Add this code to Orange Cat:\nchange size by 5\nmove 10 steps\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Orange Cat, and create new message \"orange cat eats\":\nbroadcast orange cat eats\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Orange Cat:\nrepeat 6\n"
+        },
+        {
+            "title": "",
+            "text": "10Add this code to Orange Cat:\nchange size by -5\nmove 10 steps\n"
+        },
+        {
+            "title": "Test #1",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click on the orange cat and make sure it moves forward and then back.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Duplicate the Orange Cat sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Rename \"Orange Cat\"' to \"Blue Cat\".\n"
+        },
+        {
+            "title": "",
+            "text": "Use the Fill tool to paint the cat blue.\n"
+        },
+        {
+            "title": "",
+            "text": "Change the code for Blue Cat.\n"
+        },
+        {
+            "title": "",
+            "text": "15Change the code for Blue Cat:\n"
+        },
+        {
+            "title": "",
+            "text": "Create the new message \"blue cat eats\".\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code for Blue Cat.\nwait pick random 0.25 to 0.5 secs\n"
+        },
+        {
+            "title": "",
+            "text": "18Add this code for Blue Cat:\ngo to x: 0 y: -150\n"
+        },
+        {
+            "title": "Test #2",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag, and make sure the blue cat starts moving forward and back.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Duplicate the Blue Cat sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Rename \"Blue Cat2\" to \"Green Cat\".\n"
+        },
+        {
+            "title": "",
+            "text": "Use the Fill tool to paint the cat green.\n"
+        },
+        {
+            "title": "",
+            "text": "Change this code on Green Cat, and create new message \"green cat eats\".\n"
+        },
+        {
+            "title": "Test #3",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag, and make sure the green cat is moving forward and back.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Duplicate the Green Cat sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Rename \"Green Cat2\" to \"Yellow Cat\"\n"
+        },
+        {
+            "title": "",
+            "text": "Use the Fill tool to paint the cat yellow.\n"
+        },
+        {
+            "title": "",
+            "text": "Change this code on Yellow Cat, and create new message \"yellow cat eats\".\n"
+        },
+        {
+            "title": "Test #4",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag, and make sure the yellow cat is moving forward and back.</li></ul>If the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Click New Sprite, select Ball.\n"
+        },
+        {
+            "title": "",
+            "text": "Make a variable named \"Food Left\".\n"
+        },
+        {
+            "title": "",
+            "text": "Make a variable named \"Orange Cat Score\""
+        },
+        {
+            "title": "",
+            "text": "Make variables \"Blue Cat Score\", \"Green Cat Score\", and \"Yellow Cat Score\"\n"
+        },
+        {
+            "title": "",
+            "text": "31Add this code to Ball:\nwhen green flag clicked\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nset Food Left to 40\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nset Food Left to 0\nset Food Left to 0\nset Food Left to 0\nset Food Left to 0\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nset Orange Cat Score to 0\nset Blue Cat Score to 0\nset Green Cat Score to 0\nset Yellow Score to 0\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nset size to 50%\nhide"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\ngo to x: 0 y: 0\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nrepeat Food Left\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\ngo to random position\npoint in direction pick random -180 to 180\n"
+        },
+        {
+            "title": "",
+            "text": "40Add this code to Ball:\ncreate clone of myself\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nwhen I start as a clone\nshow\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nforever\n"
+        },
+        {
+            "title": "",
+            "text": "43Add this code to Ball:\nmove 25 steps\nif on edge, bounce\n"
+        },
+        {
+            "title": "Test #5",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag, and make sure the food balls start bouncing around the Stage.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nwhen I receive orange cat eats"
+        },
+        {
+            "title": "",
+            "text": "45DELETE THIS GIF"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nif touching Orange Cat then\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\nchange Orange Cat Score by 1\nchange Food Left by -1\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to Ball:\ndelete this clone\n"
+        },
+        {
+            "title": "Test #6",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag, and click the orange cat. Make sure the food balls disappear when the cat eats them, and the Orange Cat Score variable increases.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Duplicate this script, and change the \"Orange\" parts to \"Blue\".\n"
+        },
+        {
+            "title": "",
+            "text": "Duplicate this script, and change the \"Orange\" parts to \"Green\".\n"
+        },
+        {
+            "title": "",
+            "text": "Duplicate this script, and change the \"Orange\" parts to \"Yellow\".\n"
+        },
+        {
+            "title": "Test #7",
+            "text": "Click on File > Save. Test to make sure your program has the following:\nClick the Green Flag, and make sure the other three cats eat food ball and their scores increase.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help.\n"
+        },
+        {
+            "title": "",
+            "text": "52Click the \"Paint New Sprite\" button, name it \"The End\"\n"
+        },
+        {
+            "title": "",
+            "text": "On the Costumes tab, use the Text tool to write \"The End!\"\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nwhen green flag clicked\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nhide\nset size to 100%\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nwait 1 secs\nwait until\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nFood Left = 0\n"
+        },
+        {
+            "title": "",
+            "text": "58Add this code to The End:\nshow"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nrepeat 5\nrepeat 10\nrepeat 10\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to The End:\nchange size by 10\nchange size by -10\n"
+        },
+        {
+            "title": "",
+            "text": "61Add this code to The End:\nstop all\n"
+        },
+        {
+            "title": "Test #8",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Click the Green Flag and play the game. Make sure when all the food balls are gone, the The End message appears and bounces.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": "Double-click the variables on the Stage to change their appearance.\n"
+        },
+        {
+            "title": "",
+            "text": "Select the \"light\" backdrop."
+        },
+        {
+            "title": "",
+            "text": "Name your project \"Hungry Hungry Kitties\"."
+        }
+    ]
+}

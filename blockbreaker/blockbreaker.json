@@ -1,0 +1,229 @@
+{
+    "name": "Block Breaker",
+    "slides": [
+        {
+            "title": "Block Breaker",
+            "text": "In this game, the player moves a paddle left and right to keep a ball bouncing and breaking blocks above it."
+        },
+        {
+            "title": "Program the Paddle Sprite",
+            "text": "Add the Paddle sprite by clicking on the head-shaped button next to New Sprite."
+        },
+        {
+            "title": "",
+            "text": "Delete the orange cat by right-clicking on it and selecting \"Delete\""
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Paddle sprite:\nwhen green flag clicked\nset rotate don't rottate\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Paddle sprite:\ngo to x: 130 y: -140\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Paddle sprite:\nforever"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Paddle sprite:\npoint towards mouse-pointer\nmove 10 steps\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Paddle sprite:\nset y to -140"
+        },
+        {
+            "title": "Test #1",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": "Add the Tennis Ball sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nwhen green flag clicked\n"
+        },
+        {
+            "title": "",
+            "text": "10Add this code to the Tennis Ball sprite:\ngo to x: 0 y: 0\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\npoint in direction 135\nwait 1 secs\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nforever\nmove 10 steps\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nif on edge, bounce"
+        },
+        {
+            "title": "Test #2",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nif touching Paddle then\n"
+        },
+        {
+            "title": "",
+            "text": "15Add this code to the Tennis Ball sprite:\nbroadcast bounce and wait\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nwhen I receive bounce\npoint in direction 90\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\n180 - direction\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nrepeat until not\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\ntouching Paddle\nmove 10 steps\n"
+        },
+        {
+            "title": "Test #3",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": "20Add the Button 2 sprite"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nwhen green flag clicked \nhide\n"
+        },
+        {
+            "title": "",
+            "text": "Create the Score variable.\n"
+        },
+        {
+            "title": "",
+            "text": "23Add this code to the Button 2 sprite:\nset Score to 0\nset size to 50%\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\ngo to x: -200 y: 140"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nwhen I start as a clone\nshow\n"
+        },
+        {
+            "title": "",
+            "text": "26Add this code to the Button 2 sprite:\nrepeat 4\nrepeat 7\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\ncreate clone of myself\nchange x by 65\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nset x to -200\nchange y by -30\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nforever\nif then\n"
+        },
+        {
+            "title": "",
+            "text": "30Add this code to the Button 2 sprite:\ntouching Tennis Ball?\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nbroadcast bounce\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Button 2 sprite:\nchange Score by 1\ndelete this clone\n"
+        },
+        {
+            "title": "Test #4",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": "32Add this code to the Tennis Ball sprite:\nwhen green flag clicked\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nforever\nif then\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nif y position &lt; -140\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Tennis Ball sprite:\nbroadcast game over\n"
+        },
+        {
+            "title": "",
+            "text": "Create the Game Over sprite.\n"
+        },
+        {
+            "title": "",
+            "text": "Rename the new sprite to \"Game Over\"\n"
+        },
+        {
+            "title": "",
+            "text": "38Add this code to the Game Over sprite:\nwhen green flag clicked\ngo to x: 0 y: 0\nhide"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the Game Over sprite:\nwhen I receive game over\nshow\n"
+        },
+        {
+            "title": "",
+            "text": "40Add this code to the Game Over sprite:\nstop all\n"
+        },
+        {
+            "title": "Test #5",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": "Create the You Win sprite."
+        },
+        {
+            "title": "",
+            "text": "42Rename the new sprite to \"You Win\""
+        },
+        {
+            "title": "",
+            "text": "Add this code to the You Win sprite:\nwhen green flag clicked\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the You Win sprite:\ngo to x: 0 y:0\nhide\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the You Win sprite:\nset Score to 0\nwait until\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the You Win sprite:\nScore = 28\n"
+        },
+        {
+            "title": "",
+            "text": "47Add this code to the You Win sprite:\nshow\n"
+        },
+        {
+            "title": "",
+            "text": "Add this code to the You Win sprite:\nstop all\n"
+        },
+        {
+            "title": "Test #6",
+            "text": ""
+        }
+    ]
+}
