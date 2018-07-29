@@ -1,50 +1,95 @@
 {
     "name": "Archery",
-    "numImages": 58,
+    "numImages": 2,
     "slides": [
         {
             "title": "Archery Game",
-            "text": "In this archery game, the player must shoot arrows past blocks to hit apples.\n<img src=\"complete.gif\" alt=\"Completed Archery game demo\" />\n\nThe complete game can be played on the Scratch website.\n"
+            "text": "In this archery game, the player must shoot arrows past blocks to hit apples.",
+            "image":{
+                "file":"complete.gif",
+                "alt":"Completed Archery game demo"
+            },
+            "foot": "The complete game can be played on the Scratch website."
         },
         {
             "title": "Make the Cat Look Like Robin Hood",
-            "text": "Click the blue-white (i) button and rename Sprite1 to Cat.\n<img src=\"1.gif\" alt=\"instruction animation\" />"
+            "text": "Click the blue-white (i) button and rename Sprite1 to Cat.\n",
+            "image":{
+              "file":"1.gif",
+              "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Cat Look Like Robin Hood",
-            "text": "On the Costumes tab, click the \"Convert to bitmap\" button.\n<img src=\"2.gif\" alt=\"instruction animation\" />"
+            "text": "On the Costumes tab, click the \"Convert to bitmap\" button.",
+            "image":{
+                "file":"2.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Cat Look Like Robin Hood",
-            "text": "Draw a green Robin Hood hat with red feather on the cat.\n<img src=\"3.gif\" alt=\"instruction animation\" />"
+            "text": "Draw a green Robin Hood hat with red feather on the cat.\n",
+            "image":{
+                "file":"3.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Make the Cat Look Like Robin Hood",
-            "text": "Draw a bow in the cat's hand.\n<img src=\"4.gif\" alt=\"instruction animation\" />"
+            "text": "Draw a bow in the cat's hand.\n",
+            "image":{
+                "file":"4.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "On the Scripts tab, add the following code to Cat:\nwhen green flag> clicked\nforever\n<img src=\"5.gif\" alt=\"instruction animation\" />"
+            "text": "On the Scripts tab, add the following code to Cat:\nwhen green flag> clicked\nforever\n",
+            "image":{
+                "file":"5.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "Add the following code to Cat:\nif &lt;key w pressed&gt; then\n<img src=\"6.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to Cat:\nif &lt;key w pressed&gt; then\n",
+            "image":{
+                "file":"6.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "Add the following code to Cat:\nchange y by 10\n<img src=\"7.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to Cat:\nchange y by 10\n",
+            "image":{
+                "file":"7.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "Add the following code to Cat:\nif &lt;key s pressed&gt; then\n<img src=\"8.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to Cat:\nif &lt;key s pressed&gt; then\n",
+            "image":{
+                "file":"8.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "Add the following code to Cat:\nchange y by -10\n<img src=\"9.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code to Cat:\nchange y by -10\n",
+            "image":{
+                "file":"9.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Program the W and S Keys to Move the Cat Up and Down",
-            "text": "Move the cat to the left side of the Stage.\n<img src=\"10.gif\" alt=\"instruction animation\" />"
+            "text": "Move the cat to the left side of the Stage.\n",
+            "image":{
+                "file":"10.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Test #1",
@@ -52,15 +97,27 @@
         },
         {
             "title": "Draw the Arrow",
-            "text": "Draw the arrow with a light gray arrow head. MAKE SURE THE ARROW HEAD IS ON THE CROSSHAIRS IN MIDDLE OF THE PAINT EDITOR.\n<img src=\"11.gif\" alt=\"instruction animation\" />"
+            "text": "Draw the arrow with a light gray arrow head. MAKE SURE THE ARROW HEAD IS ON THE CROSSHAIRS IN MIDDLE OF THE PAINT EDITOR.\n",
+            "image":{
+                "file":"11.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Draw the Arrow",
-            "text": "Rename the arrow sprite to \"Arrow\".\n<img src=\"12.gif\" alt=\"instruction animation\" />"
+            "text": "Rename the arrow sprite to \"Arrow\".\n",
+            "image":{
+                "file":"12.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Draw the Arrow",
-            "text": "Add the following code. Try different sizes for the arrow until you find a good size. Your size might not be 100:\nwhen green flag> clicked\nset size to 50%\n<img src=\"13.gif\" alt=\"instruction animation\" />"
+            "text": "Add the following code. Try different sizes for the arrow until you find a good size. Your size might not be 100:\nwhen green flag> clicked\nset size to 50%\n",
+            "image":{
+                "file":"13.gif",
+                "alt":"instruction animation"
+            }
         },
         {
             "title": "Create Variables",
