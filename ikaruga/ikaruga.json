@@ -1,0 +1,224 @@
+{
+    "name": "Ikaruga Cat",
+    "slides": [
+        {
+            "title": "Ikaruga Cat",
+            "text": "An \"Ikaruga\" game is a Japanese name for color-matching games. In this game, you move the cat with the mouse and try to collect apples of the same color as the cat. You can press the space key to change the cat's color. The game is over if you touch an apple of a different color.\n<img src=\"complete.gif\" />"
+        },
+        {
+            "title": "Rename the Cat Sprite",
+            "text": "Rename the sprite from \"Sprite1\" to \"Cat\".\n"
+        },
+        {
+            "title": "Add Costumes to the Cat Sprite",
+            "text": "On the Costumes tab, duplicate the costume twice.\n"
+        },
+        {
+            "title": "Repaint the Cat Costumes",
+            "text": "Paint the costumes red, blue, and green (in that order).\n"
+        },
+        {
+            "title": "Set the Backdrop",
+            "text": "Change the backdrop to \"Light\"."
+        },
+        {
+            "title": "Create the \"Score\" Variable",
+            "text": "Click \"Make a Variable\" to make the Score variable."
+        },
+        {
+            "title": "Add Cat Code",
+            "text": "Add the following code to the Cat sprite:\nwhen green flag clicked\nset Score to 0\nset size to 50%\n"
+        },
+        {
+            "title": "Add Cat Code",
+            "text": "Add the following code to the Cat sprite:\nforever\nif mouse down? then\n"
+        },
+        {
+            "title": "Add Cat Code",
+            "text": "Add the following code to the Cat sprite:\npoint towards mouse-pointer\nmove 10 steps\n"
+        },
+        {
+            "title": "Test #1",
+            "text": "Click on File > Save. Then test to make sure your program has the following:\n<ul><li>The cat points towards the mouse cursor.</li><li>The cat moves towards the mouse cursor when you hold the mouse button down.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "Add Cat Code",
+            "text": "9Add the following code to the Cat sprite:\nwhen space key pressed\nnext costume\n"
+        },
+        {
+            "title": "Test #2",
+            "text": "Click on File > Save. Then test to make sure your program has the following:\n<ul><li>When the space key is pressed, the cat changes color.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "Add the Apple Sprite",
+            "text": "Add the new Apple sprite from the Sprite Library.\n"
+        },
+        {
+            "title": "Add Costumes to the Apple Sprite",
+            "text": "Duplicate the apple's costume twice.\n"
+        },
+        {
+            "title": "Repaint the Apple Costumes",
+            "text": "Paint the apple costumes red, blue, and green (in that order).\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nwhen green flag clicked\nhide\nset size to 50%\nforever\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nwait pick random 0.1 to 1 secs\npoint in direction pick random -180 to 180\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nswitch costume to pick random 1 to 3\ncreate clone of myself\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nwhen I start as a clone\nshow\nforever\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nmove 3 steps\nif on edge, bounce\n"
+        },
+        {
+            "title": "Test #3",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Apples of random colors begin spawning.</li><li>The apples move and bounce off the walls.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nif (touching Cat?) then\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nif ((costume #) = (costume # of Cat)) then else\n"
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "Add the following code to the Apple sprite:\nchange Score by 1\ndelete this clone\n"
+        },
+        {
+            "title": "Test #4",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>Apples the same color as the cat disappear when the cat touches them.</li><li>Apples of different colors do not disappear when the cat touches them.</li><li>The Score increases by one for each same-color apple the cat touches.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "Add Code to Apple",
+            "text": "21Add the following code to the Apple sprite:\nbroadast Game Over and wait\n"
+        },
+        {
+            "title": "Add Code to the Cat",
+            "text": "Add the following code to the Apple sprite:\nwhen I receive Game Over\nstop other scripts in sprite\nsay (Oh no! Game over!) for (2) secs\nstop all"
+        },
+        {
+            "title": "Test #5",
+            "text": "Click on File > Save. Test to make sure your program has the following:\n<ul><li>When the cat touches a different-colored apple, it says \"Oh no! Game over!\" and the game ends.</li></ul>\nIf the program doesn't do all of these things, check the previous steps to make sure you copied the code exactly. If you still can't figure it out, ask for help."
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+        {
+            "title": "",
+            "text": ""
+        },
+
